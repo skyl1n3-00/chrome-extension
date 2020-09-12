@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chrome extension</title>
+    <link rel="shortcut icon" href="icon_128.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        font-family: "Source Sans Pro", "Times New Roman";
+      }
+
+      .modal {
+        width: 20rem;
+        height: 17rem;
+        border-radius: 5px;
+      }
+
+      .header {
+        height: 3.5rem;
+        width: 100%;
+        background-color: black;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .header h3 {
+        font-size: 1.2rem;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        height: 70%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+      }
+
+      .content .img {
+        width: 3.5rem;
+        height: 3.5rem;
+      }
+
+      .content .img {
+        fill: blue;
+      }
+
+      .content p {
+        text-align: center;
+        font-size: 1.3rem;
+        font-family: inherit;
+        display: block;
+        padding: 1rem;
+      }
+
+      .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .links .link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+        width: 3rem;
+        margin: 15px;
+      }
+
+      .footer h4 {
+        text-align: center;
+        margin-top: -0.4rem;
+        margin-bottom: 1rem;
+        font-size: 16px;
+      }
+
+      .blue {
+        color: blue;
+      }
+
+      .black {
+        color: black;
+      }
+
+      .red {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="modal">
+      <div class="header">
+        <h3>Social Networks Links</h3>
+      </div>
+      <div class="content">
+        <div class="img">
+          <!-- image from simpleicons.org -->
+          <img src="googlechrome.svg" alt="" srcset="" />
+        </div>
+        <p>
+          Chrome extension to quickly open my social networks pages (profiles).
+        </p>
+      </div>
+      <div class="links">
+        <div class="link">
+          <a href="https://twitter.com/yassiraghraba" target="_blank"
+            ><i class="blue fa fa-3x fa-twitter" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="link">
+          <a href="https://github.com/skyl1n3-00" target="_blank"
+            ><i class="black fa fa-3x fa-github" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="link">
+          <a href="https://www.reddit.com/user/_SkyLine00" target="_blank"
+            ><i class="red fa fa-3x fa-reddit" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="link">
+          <a href="https://www.quora.com/profile/Yassir-Aghraba" target="_blank"
+            ><i class="red fa fa-3x fa-quora" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer">
+        <h4>Copyright &copy; 2020</h4>
+      </div>
+    </div>
+  </body>
+</html>
